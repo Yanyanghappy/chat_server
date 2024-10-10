@@ -1,0 +1,55 @@
+[
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Wall",
+            "-O2",
+            "-g",
+            "-I",
+            "/home/yang/mnt/mes/include",
+            "-D",
+            "_GNU_SOURCE",
+            "-Wp,-MD,.client.o.d",
+            "-o",
+            "client.o",
+            "client.c"
+        ],
+        "directory": "/home/yang/mnt/mes/src",
+        "file": "client.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Wall",
+            "-O2",
+            "-g",
+            "-I",
+            "/home/yang/mnt/mes/include",
+            "-Wp,-MD,.main.o.d",
+            "-o",
+            "main.o",
+            "main.c"
+        ],
+        "directory": "/home/yang/mnt/mes/src",
+        "file": "main.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Wall",
+            "-O2",
+            "-g",
+            "-I",
+            "/home/yang/mnt/mes/include",
+            "-Wp,-MD,.server.o.d",
+            "-o",
+            "server.o",
+            "server.c"
+        ],
+        "directory": "/home/yang/mnt/mes/src",
+        "file": "server.c"
+    }
+]
